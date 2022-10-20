@@ -1,0 +1,17 @@
+# basic parameters
+checkpoint_dir: 'checkpoint'
+model_path: 'checkpoint/baseline1/checkpoint/best_dev'
+name: 'baseline1_test'
+gpu: 0
+per_gpu_batch_size: 8
+seed: 0
+
+# evaluation parameters
+eval_data: 'test.json'
+write_results: true
+
+# model specific parameters
+n_context: 1
+text_maxlength: 250
+no_sent: true
+no_path: true

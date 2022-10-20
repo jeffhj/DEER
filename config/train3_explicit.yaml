@@ -1,0 +1,23 @@
+# basic parameters
+checkpoint_dir: 'checkpoint'
+name: 'baseline3_explicit'
+gpu: 0
+per_gpu_batch_size: 8
+seed: 0
+
+# training parameters
+train_data: 'explicit_train.json'
+eval_data: 'explicit_dev.json'
+eval_freq: 5000
+
+# optim parameters
+epochs: 20
+early_stop_count: 20
+# total_steps: 50000
+
+# model specific parameters
+model_size: 'base'
+n_context: 1
+text_maxlength: 250
+no_sent: false
+no_path: false

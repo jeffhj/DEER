@@ -1,0 +1,11 @@
+__pycache__
+target.txt
+output.txt
+meteor
+extract_wiki/
+checkpoint/
+*.json
+*.csv
+*.pickle
+datasets/
+re/

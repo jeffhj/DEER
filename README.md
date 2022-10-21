@@ -1,5 +1,5 @@
 # README
-The code and data for "DEER: A Descriptive Graph for Explaining Entity Relationships" (EMNLP '22)
+The code and data for "[DEER: A Descriptive Graph for Explaining Entity Relationships](https://arxiv.org/pdf/2205.10479.pdf)" (EMNLP '22)
 
 ## Introduction
 

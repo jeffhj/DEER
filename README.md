@@ -1,9 +1,10 @@
-# README
-The code and data for "[DEER: A Descriptive Graph for Explaining Entity Relationships](https://arxiv.org/pdf/2205.10479.pdf)" (EMNLP '22)
+# DEER🦌
+
+The code and data for "[DEER: Descriptive Knowledge Graph for Explaining Entity Relationships](https://arxiv.org/pdf/2205.10479.pdf)" (EMNLP '22)
 
 ## Introduction
 
-We propose a **D**escriptive Graph for **E**xplaining **E**ntity **R**elationships **(DEER)** -- an open and interpretable form of modeling relationships between entities.
+We propose **DEER**🦌 (**D**escriptive Knowledge Graph for **E**xplaining **E**ntity **R**elationships) - an open and informative form of modeling entity relationships. In DEER, relationships between entities are represented by free-text relation descriptions. For instance, the relationship between entities of machine learning and algorithm is represented as "*Machine learning explores the study and construction of algorithms that can learn from and make predictions on data.*"
 
 ![image](https://user-images.githubusercontent.com/44779294/196641224-5f984fca-3fd1-46bb-b4ff-5b00fc6235b7.png)
 
@@ -96,4 +97,10 @@ to compare the generation outputs with the targets.
 The details of this repo are described in the following paper. If you find this repo useful, please kindly cite it:
 
 ```
+@inproceedings{huang2022deer,
+  title={DEER: Descriptive Knowledge Graph for Explaining Entity Relationships},
+  author={Huang, Jie and Zhu, Kerui and Chang, Kevin Chen-Chuan and Xiong, Jinjun and Hwu, Wen-mei},
+  booktitle={Proceedings of EMNLP},
+  year={2022}
+}
 ```
